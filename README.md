@@ -1,5 +1,5 @@
 
-# Weakly Supervised Remote Sensing Segmentation with Pytorch
+# Partial Cross-Entropy Segmentation with Pytorch
 
 This repository contains a PyTorch implementation for semantic segmentation of high-resolution aerial imagery using weakly supervised learning. Specifically, it demonstrates how to train a dense prediction model using only sparse point annotations (100 pixels per image) via a custom **Partial Cross-Entropy (pfCE) Loss**.
 
@@ -22,14 +22,14 @@ This project uses the **Semantic segmentation of aerial imagery** dataset by Hum
    ```bash
    git clone https://github.com/syntaxland/partial-ce-segmentation-pytorch.git
 
-```
+   ```
 
 2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
 
-```
+   ```bash
+   pip install -r requirements.txt
 
+   ```
 
 3. **Kaggle API Key:** To download the dataset automatically, you must have a Kaggle account.
 * Go to your Kaggle Account Settings and click **Create New Token** to download `kaggle.json`.
