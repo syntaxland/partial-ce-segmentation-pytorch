@@ -1,5 +1,5 @@
 ```markdown
-# Weakly Supervised Remote Sensing Segmentation
+# Weakly Supervised Remote Sensing Segmentation with Pytorch
 
 This repository contains a PyTorch implementation for semantic segmentation of high-resolution aerial imagery using weakly supervised learning. Specifically, it demonstrates how to train a dense prediction model using only sparse point annotations (100 pixels per image) via a custom **Partial Cross-Entropy (pfCE) Loss**.
 
