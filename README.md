@@ -20,7 +20,7 @@ This project uses the **Semantic segmentation of aerial imagery** dataset by Hum
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/syntaxland/partial-ce-segmentation-pytorch.git](https://github.com/syntaxland/partial-ce-segmentation-pytorch.git)
+   git clone https://github.com/syntaxland/partial-ce-segmentation-pytorch.git
 
 ```
 
